@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Logga in</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+       
+    <div class="bg-img">
+        <div class="content">
+            <form onsubmit="return validate()" action="addPet.html">
+                <div class="field">
+                    <span class="fa fa-user"></span>
+                    <input type="text" id="username" required  placeholder="Användarnamn">
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" id="password" class="pass-key" required placeholder="Lösenord">
+                </div>
+                <div class="pass">
+                    <a href="#">Börja rädda djur</a>
+                </div>
+                <div class="field">
+                    <input type="submit" value="LOGGA IN">
+                </div>
+            </form>
+           
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
