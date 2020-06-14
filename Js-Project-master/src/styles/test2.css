@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+  }
+  .topnav {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+  .headerimage {
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    background-image: url(../images/dog.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+  .btn:focus,
+  .btn:active,
+  button:focus,
+  button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer {
+    display: block;
+  }
+  .col-xl-4 {
+    margin-top: 50px;
+  }
+  .col-xl-4 img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .col-xl-4:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
